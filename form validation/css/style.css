@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aquamarine;
+    padding-left: 40px;
+}
+.container{
+    width: 650px;
+    margin: auto;
+   
+}
+.box{
+    height: 50px;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    color: #ffffff;
+    background-color: sandybrown;
+    border-radius: 10px;
+    
+
+}
+.mg1{
+    margin-left: 70px;
+}
+.mg2{
+    margin-left: 70px;
+}
+.mg3{
+    margin-left: 110px;
+}
+.mg4{
+    margin-left: 80px;
+}
+.mg6{
+    margin-left: 200px;
+}
+.formerror{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
