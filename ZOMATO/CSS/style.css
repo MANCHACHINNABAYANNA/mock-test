@@ -1,0 +1,116 @@
+body{
+    height: 700px;
+    background-image: url(/images/sign-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-container{
+    width: 500px;  /* View port width and view port height*/
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.input-1 span{
+    font-size: 20px;
+}
+ .input-1{
+    border: 1px solid rgb(169, 235, 169);
+    padding: 8px;
+    border-radius: 8px;
+}
+input{
+    font-size: 20px;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+ input, 
+ input:focus{
+    border: none;
+    outline: none;
+    
+}
+.input-1{
+    margin-top: 8px;
+}
+
+.ind{
+    width: 40px;
+}
+.btn{
+    display: inline-block;
+    width: 100%;
+    background-color: gray;
+    padding: 16px 0px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    border: none;
+    color: white;
+    margin: 16px 0px;
+    cursor: pointer;
+    font-size: 18px !important;
+    /* background-color: transparent; */
+}
+.send-otp{
+    
+    background-color: gray;
+    padding: 16px 0px;
+    
+    border: none;
+    color: white;
+    
+}
+.send-otp:disabled{
+    background-color: rgb(201,201,201);
+    cursor: not-allowed;
+}
+.or-text{
+    text-align: center;
+    transform: translateY(-16px);
+}
+.new-user-nav{
+    font-size: 18px;
+    margin: 16px 0 8px 0;
+    color: white;
+    margin-left: 30%;
+}
+.new-user-nav a{
+    font-weight: bold;
+    color: darkviolet;
+    text-decoration: none;
+    
+}
+.ui-widget-header{
+    background-color: white !important;
+    border: none !important;
+}
+.ml-1{
+    margin-left: 4px;
+}
+.ml-2{
+    margin-left: 8px;
+}
+.ml-3{
+    margin-left: 16px;
+}
+.ml-4{
+    margin-left: 32px;
+}
+.mr-1{
+    margin-right: 4px;
+}
+.mr-2{
+    margin-right: 8px;
+}
+.mr-3{
+    margin-right: 16px;
+}
+.m-r4{
+    margin-right: 32px;
+}
